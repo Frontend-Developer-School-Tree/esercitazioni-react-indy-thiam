@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Component from './Component';
+import FormEs2 from './forms/FormEs2';
+import FormEs1  from './forms/FormEs1';
+import AppNuova from './AppNuova';
+import AppL from './AppL';
+import AppH from './AppH';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Component /> */}
+    {/* <FormEs1 /> */}
+    {/* <FormEs2 /> */}
+    {/* <AppNuova /> */}
+    {/* <AppL /> */}
+    <AppH />
   </React.StrictMode>,
   document.getElementById('root')
 );
