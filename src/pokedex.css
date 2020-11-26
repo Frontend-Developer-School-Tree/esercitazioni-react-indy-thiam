@@ -1,0 +1,28 @@
+.container{
+    background-color: blue;
+    justify-content: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+
+}
+.cardContainer {
+    height: auto;
+    width: 300px;
+    border-radius: 10%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+  }
+
+  .cardContainer .cardBody {
+      display:table;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding-bottom: 10px;
+
+  }
+
+  .cardContainer #imgPoke {
+      height: 200px;
+      width: auto;
+  }
